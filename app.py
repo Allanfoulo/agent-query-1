@@ -27,13 +27,6 @@ if 'agent' not in st.session_state:
 query_input = st.text_input("Enter a query:", placeholder="What do you want to know?")
 submit_button = st.button("Ask")
 
-# Create a collapsible expander
-expander = st.expander("Thought Process")
-
-# Display the thought process inside the expander
-with expander:
-    st.write("Here's what I'm thinking:")
-    thought_process = st.empty()  # Create a stream object
 
 if submit_button:
     if 'agent' in st.session_state:
