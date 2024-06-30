@@ -5,3 +5,4 @@ python-dotenv
 llama_index
 llama_index.experimental
 llama_index.llms.groq
+openpyxl
