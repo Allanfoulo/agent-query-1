@@ -1,0 +1,7 @@
+streamlit
+pandas
+xlrd
+python-dotenv
+llama_index==1.0.0
+llama_index.experimental
+llama_index.llms.groq
